@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  margin-block: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+input,
+textarea {
+  margin-bottom: 28px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  width: 35vw;
+  max-height: 35vw;
+}
+
+.img {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}

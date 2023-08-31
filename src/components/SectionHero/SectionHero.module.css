@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.container img {
+  width: 700px;
+  padding-top: 100px;
+}
+
+.container p {
+  max-width: 440px;
+  line-height: 2rem;
+  font-size: 19px;
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+.productContainer {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  margin: 16px 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+.productImage {
+  max-width: 24vw;
+  height: auto;
+}
+
+.detailsContainer {
+  flex: 2;
+  padding: 80px;
+}
+
+.productTitle {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productTable td {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.productTable td:first-child {
+  font-weight: bold;
+}
