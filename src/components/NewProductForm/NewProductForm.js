@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../Button/Button";
 import Loader from "../Loader/Loader";
 import styles from "./NewProductForm.module.css";
-import { loadProductById } from "../../utils/api/load";
+import { loadProductById } from "../../api/load";
 import { handleSubmit } from "../../utils/handler/add";
 import FileUpload from "../FileUpload/FileUpload";
 

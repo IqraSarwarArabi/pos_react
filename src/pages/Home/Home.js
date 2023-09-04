@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-import { loadLimitedProducts } from "../../utils/api/load";
+import { loadLimitedProducts } from "../../api/load";
 import {
   SectionHero,
   NavBar,

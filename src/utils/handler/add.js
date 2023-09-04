@@ -1,7 +1,7 @@
 import swal from "sweetalert";
-import { addNewProduct } from "../api/add";
+import { addNewProduct } from "../../api/add";
 import { validate } from "../validations";
-import { editProduct } from "../api/edit";
+import { editProduct } from "../../api/edit";
 
 export const handleSubmit = async (
   setLoading,

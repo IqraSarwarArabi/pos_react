@@ -1,5 +1,5 @@
 import swal from "sweetalert";
-import { deleteProduct } from "../api/delete";
+import { deleteProduct } from "../../api/delete";
 
 export const handleDelete = (setDeleting, product) => {
   swal({

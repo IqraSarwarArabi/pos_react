@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Loader, ProductDetails, NavBar, Footer } from "../../components/index";
-import { loadProductById } from "../../utils/api/load";
+import { loadProductById } from "../../api/load";
 
 const Product = () => {
   const [product, setProduct] = useState(null);

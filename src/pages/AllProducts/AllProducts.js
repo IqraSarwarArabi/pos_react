@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../Home/Home.module.css";
 import { Link } from "react-router-dom";
-import { loadAllProducts } from "../../utils/api/load";
+import { loadAllProducts } from "../../api/load";
 import { debouncedSearch } from "../../utils/handler/search";
 import {
   Products,
